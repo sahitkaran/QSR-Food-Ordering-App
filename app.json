@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Hello1",
+    "name": "TaazaExpress",
     "slug": "Hello1",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -13,16 +13,25 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "buildNumber": "1.0.0",
+      "supportsTablet": true,
+      "bundleIdentifier": "com.sahit.Hello1"
     },
     "android": {
+      "buildNumber": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.sahit.Hello1"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "20502a92-004c-4d5e-b9aa-9e23271ad190"
+      }
     }
   }
 }
